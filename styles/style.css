@@ -1,0 +1,44 @@
+h1#headerFirst {
+    color: rgb(58,58,58); /* Цвет заголовка */
+    font-size: 120px; /* Размер шрифта в пунктах */
+    font-family: "LatoRegular", Helvetica, Arial, sans-serif; /* Семейство шрифтов */
+    font-weight:700; 
+    margin: auto;
+    text-align: center;
+}
+
+h3#headerSecond {
+    color: rgb(58,58,58); /* Цвет заголовка */
+    font-size: 56px; /* Размер шрифта в пунктах */
+    font-family: "LatoRegular", Helvetica, Arial, sans-serif; /* Семейство шрифтов */
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+    line-height:1.1;
+    
+}
+
+div#container{
+    width: 80%;
+    margin: auto;
+    padding-top: 100pt;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding-top: 20pt;
+    width: 50%;
+    max-width: 200pt;
+}
+
+
+@font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/LatoRegular/LatoRegular.eot");
+    src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+    url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
